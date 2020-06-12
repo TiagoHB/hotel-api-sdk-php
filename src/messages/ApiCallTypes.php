@@ -12,10 +12,11 @@ namespace hotelbeds\hotel_api_sdk\messages;
  * Interface ApiCallTypes
  * @package hotelbeds\hotel_api_sdk\messages
  */
-interface ApiCallTypes
-{
-    const AVAILABILITY = "hotels";
-    const BOOKING = "bookings";
-    const CHECK_AVAIL = "checkrates";
-    const STATUS = "status";
+interface ApiCallTypes {
+	const AVAILABILITY = "hotels";
+	const BOOKING = "bookings";
+	const CHECK_AVAIL = "checkrates";
+	const STATUS = "status";
+	/* Added at 03/06/2020 */
+	const DESTINATIONS = "locations/destinations";
 }
